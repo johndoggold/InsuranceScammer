@@ -12,8 +12,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+ 
+    _navControl = [[UINavigationController alloc] init];
+    MenuViewController *menuView = [[MenuViewController alloc] init];
+    [_navControl pushViewController:menuView animated:NO];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    self.window.rootViewController = _navControl;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

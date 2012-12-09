@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21784DD1674F25D00B829E6 /* SecondInflationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21784DB1674F25D00B829E6 /* SecondInflationViewController.m */; };
+		E21784DE1674F25D00B829E6 /* SecondInflationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21784DC1674F25D00B829E6 /* SecondInflationViewController.xib */; };
+		E21784E31674F69F00B829E6 /* ThirdInflationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21784E11674F69F00B829E6 /* ThirdInflationViewController.m */; };
+		E21784E41674F69F00B829E6 /* ThirdInflationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21784E21674F69F00B829E6 /* ThirdInflationViewController.xib */; };
 		E21E82F016745055002EE698 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E82EF16745055002EE698 /* UIKit.framework */; };
 		E21E82F216745055002EE698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E82F116745055002EE698 /* Foundation.framework */; };
 		E21E82F416745055002EE698 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E82F316745055002EE698 /* CoreGraphics.framework */; };
@@ -16,9 +20,19 @@
 		E21E830216745055002EE698 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E21E830116745055002EE698 /* Default.png */; };
 		E21E830416745055002EE698 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E21E830316745055002EE698 /* Default@2x.png */; };
 		E21E830616745055002EE698 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E21E830516745055002EE698 /* Default-568h@2x.png */; };
+		E21E830F16745071002EE698 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E830D16745070002EE698 /* MenuViewController.m */; };
+		E21E831016745071002EE698 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21E830E16745070002EE698 /* MenuViewController.xib */; };
+		E21E831816745373002EE698 /* InflationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E831616745373002EE698 /* InflationViewController.m */; };
+		E21E831916745373002EE698 /* InflationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21E831716745373002EE698 /* InflationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E21784DA1674F25D00B829E6 /* SecondInflationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondInflationViewController.h; sourceTree = "<group>"; };
+		E21784DB1674F25D00B829E6 /* SecondInflationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondInflationViewController.m; sourceTree = "<group>"; };
+		E21784DC1674F25D00B829E6 /* SecondInflationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondInflationViewController.xib; sourceTree = "<group>"; };
+		E21784E01674F69F00B829E6 /* ThirdInflationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInflationViewController.h; sourceTree = "<group>"; };
+		E21784E11674F69F00B829E6 /* ThirdInflationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInflationViewController.m; sourceTree = "<group>"; };
+		E21784E21674F69F00B829E6 /* ThirdInflationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdInflationViewController.xib; sourceTree = "<group>"; };
 		E21E82EB16745055002EE698 /* InsuranceScammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsuranceScammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21E82EF16745055002EE698 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E21E82F116745055002EE698 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +46,12 @@
 		E21E830116745055002EE698 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E21E830316745055002EE698 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E21E830516745055002EE698 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E21E830C16745070002EE698 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		E21E830D16745070002EE698 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		E21E830E16745070002EE698 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		E21E831516745373002EE698 /* InflationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InflationViewController.h; sourceTree = "<group>"; };
+		E21E831616745373002EE698 /* InflationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InflationViewController.m; sourceTree = "<group>"; };
+		E21E831716745373002EE698 /* InflationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InflationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +100,18 @@
 			children = (
 				E21E82FE16745055002EE698 /* AppDelegate.h */,
 				E21E82FF16745055002EE698 /* AppDelegate.m */,
+				E21E830C16745070002EE698 /* MenuViewController.h */,
+				E21E830D16745070002EE698 /* MenuViewController.m */,
+				E21E830E16745070002EE698 /* MenuViewController.xib */,
+				E21E831516745373002EE698 /* InflationViewController.h */,
+				E21E831616745373002EE698 /* InflationViewController.m */,
+				E21E831716745373002EE698 /* InflationViewController.xib */,
+				E21784DA1674F25D00B829E6 /* SecondInflationViewController.h */,
+				E21784DB1674F25D00B829E6 /* SecondInflationViewController.m */,
+				E21784DC1674F25D00B829E6 /* SecondInflationViewController.xib */,
+				E21784E01674F69F00B829E6 /* ThirdInflationViewController.h */,
+				E21784E11674F69F00B829E6 /* ThirdInflationViewController.m */,
+				E21784E21674F69F00B829E6 /* ThirdInflationViewController.xib */,
 				E21E82F616745055002EE698 /* Supporting Files */,
 			);
 			path = InsuranceScammer;
@@ -154,6 +186,10 @@
 				E21E830216745055002EE698 /* Default.png in Resources */,
 				E21E830416745055002EE698 /* Default@2x.png in Resources */,
 				E21E830616745055002EE698 /* Default-568h@2x.png in Resources */,
+				E21E831016745071002EE698 /* MenuViewController.xib in Resources */,
+				E21E831916745373002EE698 /* InflationViewController.xib in Resources */,
+				E21784DE1674F25D00B829E6 /* SecondInflationViewController.xib in Resources */,
+				E21784E41674F69F00B829E6 /* ThirdInflationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +202,10 @@
 			files = (
 				E21E82FC16745055002EE698 /* main.m in Sources */,
 				E21E830016745055002EE698 /* AppDelegate.m in Sources */,
+				E21E830F16745071002EE698 /* MenuViewController.m in Sources */,
+				E21E831816745373002EE698 /* InflationViewController.m in Sources */,
+				E21784DD1674F25D00B829E6 /* SecondInflationViewController.m in Sources */,
+				E21784E31674F69F00B829E6 /* ThirdInflationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +314,7 @@
 				E21E830B16745055002EE698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
